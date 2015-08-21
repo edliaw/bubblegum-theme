@@ -32,7 +32,7 @@
 (let ((class '((class color) (min-colors 89)))
       ;;                                     GUI       TER
       (fg         (if (display-graphic-p) "#dedede" "#dedede"))
-      (bg         (if (display-graphic-p) "#212121" "#212121"))
+      (bg         (if (display-graphic-p) "#141414" "#141414"))
       (blue-0     (if (display-graphic-p) "#a3d1fe" "#a4d3ee"))
       (blue-1     (if (display-graphic-p) "#65bcfe" "#63b8ff"))
       (blue-2     (if (display-graphic-p) "#58a4de" "#5cacee"))
@@ -44,7 +44,7 @@
       (green-2    (if (display-graphic-p) "#7ade58" "#90ee90"))
       (grey-0     (if (display-graphic-p) "#cccccc" "#cccccc"))
       (grey-1     (if (display-graphic-p) "#ababab" "#ababab"))
-      (grey-2     (if (display-graphic-p) "#424242" "#424242"))
+      (grey-2     (if (display-graphic-p) "#333333" "#333333"))
       (magenta-0  (if (display-graphic-p) "#cea3fe" "#dda0dd"))
       (magenta-1  (if (display-graphic-p) "#b765fe" "#ba55d3"))
       (magenta-2  (if (display-graphic-p) "#a058de" "#9932cc"))
