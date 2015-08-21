@@ -1,4 +1,4 @@
-# Spacemacs-theme
+# Bubblegum-theme
 
 ![bubblegum-theme]()
 
