@@ -265,14 +265,14 @@
    `(neo-expand-btn-face ((,class (:foreground ,fg))))
 
 ;;;;; linum-mode
-   `(linum ((,class (:foreground ,red-0 :background ,grey-0))))
+   `(linum ((,class (:foreground ,blue-1 :background ,bg))))
 
 ;;;;; magit
-   `(magit-blame-sha1 ((,class (:background ,grey-1 :foreground ,green-0))))
-   `(magit-blame-time ((,class (:background ,grey-1 :foreground ,blue-1))))
-   `(magit-blame-header ((,class (:background ,grey-1 :foreground ,blue-1))))
-   `(magit-blame-subject ((,class (:background ,grey-1 :foreground ,fg))))
-   `(magit-blame-culprit ((,class (:background ,grey-1 :foreground ,red-0))))
+   `(magit-blame-sha1 ((,class (:background ,grey-2 :foreground ,green-0))))
+   `(magit-blame-time ((,class (:background ,grey-2 :foreground ,blue-1))))
+   `(magit-blame-header ((,class (:background ,grey-2 :foreground ,blue-1))))
+   `(magit-blame-subject ((,class (:background ,grey-2 :foreground ,fg))))
+   `(magit-blame-culprit ((,class (:background ,grey-2 :foreground ,red-1))))
    `(magit-branch ((,class (:foreground ,orange-0 :weight bold))))
    `(magit-diff-hunk-header ((,class (:foreground ,magenta-0))))
    `(magit-diff-file-header ((,class (:foreground ,red-0))))
@@ -293,7 +293,7 @@
    `(magit-process-ok ((,class (:inherit success))))
    `(magit-process-ng ((,class (:inherit error))))
    `(magit-section-heading ((,class (:foreground ,yellow-0 :weight bold))))
-   `(magit-section-highlight ((,class (:background ,grey-0))))
+   `(magit-section-highlight ((,class (:background ,grey-1))))
    `(magit-section-title ((,class (:background ,bg :foreground ,magenta-0 :weight bold))))
 
 ;;;;; org
