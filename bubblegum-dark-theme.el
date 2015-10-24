@@ -115,20 +115,9 @@
    `(guide-key/prefix-command-face ((,class (:foreground ,blue-2 :weight bold))))
 
 ;;;;; flycheck
-   `(flycheck-error
-     ((,(append '((supports :underline (:style line))) class)
-       (:underline (:style line :color ,red-1)))
-      (,class (:foreground ,bg :background ,red-2 :weight bold :underline t))))
-
-   `(flycheck-warning
-     ((,(append '((supports :underline (:style line))) class)
-       (:underline (:style line :color ,orange-1)))
-      (,class (:foreground ,bg :background ,orange-2 :weight bold :underline t))))
-
-   `(flycheck-info
-     ((,(append '((supports :underline (:style line))) class)
-       (:underline (:style line :color ,cyan-1)))
-      (,class (:foreground ,fg :background ,cyan-1 :weight bold :underline t))))
+   `(flycheck-error ((,class (:box (:color ,red-1 :line-width 1)))))
+   `(flycheck-warning ((,class (:box (:color ,orange-1 :line-width 1)))))
+   `(flycheck-info ((,class (:box (:color ,cyan-1 :line-width 1)))))
 
    `(flycheck-error-list-checker-name ((,class (:foreground ,yellow-0))))
    `(flycheck-fringe-error ((,class (:inherit error))))
@@ -139,8 +128,8 @@
    `(anzu-mode-line ((,class (:foreground ,yellow-1 :weight bold))))
 
 ;;;;; smartparens
-   `(sp-show-pair-match-face ((,class (:foreground ,green-1 :weight bold :underline t))))
-   `(sp-pair-overlay-face ((,class (:foreground ,bg :background ,red-2))))
+   `(sp-show-pair-match-face ((,class (:foreground ,fg :background ,green-1 :weight bold))))
+   `(sp-pair-overlay-face ((,class (:box (:color ,green-1 :line-width 1)))))
 
 ;;;;; git-gutter-fr
    `(git-gutter-fr:added ((,class (:foreground ,green-1 :weight bold))))
@@ -181,7 +170,7 @@
    `(helm-grep-match ((,class (:inherit helm-match))))
    `(helm-grep-running ((,class (:foreground ,green-0))))
    `(helm-source-header ((,class (:foreground ,bg :background ,blue-2 :weight bold))))
-   `(helm-selection ((,class (:foreground ,bg :background ,red-2))))
+   `(helm-selection ((,class (:box (:color ,grey-1 :line-width 1)))))
    `(helm-selection-line ((,class (:background ,grey-2))))
    `(helm-separator ((,class (:foreground ,blue-0))))
    `(helm-time-zone-current ((,class (:foreground ,magenta-0))))
@@ -192,9 +181,9 @@
    `(helm-visible-mark ((,class (:foreground ,bg :background ,grey-1))))
 
 ;;;;; helm-swoop
-   `(helm-swoop-target-line-block-face ((,class (:foreground ,fg :background ,red-2))))
-   `(helm-swoop-target-line-face ((,class (:foreground ,fg :background ,red-2))))
-   `(helm-swoop-target-word-face ((,class (:foreground ,bg :background ,green-1))))
+   `(helm-swoop-target-line-block-face ((,class (:box (:color ,blue-2 :line-width 1)))))
+   `(helm-swoop-target-line-face ((,class (:box (:color ,blue-2 :line-width 1)))))
+   `(helm-swoop-target-word-face ((,class (:box (:color ,blue-2 :line-width 1)))))
 
 ;;;;; company
    `(company-echo-common ((,class (:foreground ,bg :background ,fg))))
