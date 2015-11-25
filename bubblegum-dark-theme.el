@@ -170,7 +170,7 @@
    `(helm-grep-match ((,class (:inherit helm-match))))
    `(helm-grep-running ((,class (:foreground ,green-0))))
    `(helm-source-header ((,class (:foreground ,bg :background ,blue-2 :weight bold))))
-   `(helm-selection ((,class (:box (:color ,grey-1 :line-width 1)))))
+   `(helm-selection ((,class (:background ,grey-1))))
    `(helm-selection-line ((,class (:background ,grey-2))))
    `(helm-separator ((,class (:foreground ,blue-0))))
    `(helm-time-zone-current ((,class (:foreground ,magenta-0))))
