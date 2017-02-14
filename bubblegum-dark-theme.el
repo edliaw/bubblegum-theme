@@ -6,7 +6,7 @@
 ;; https://github.com/edliaw/bubblegum-theme
 ;;
 ;; Version: 0.1
-;; Package-Requires: ((emacs "24"))
+;; Package-Requires: ((emacs "25"))
 ;; Pastel colors for ease of reading on a dark background.
 ;; Created using the spacemacs theme as a template.
 
